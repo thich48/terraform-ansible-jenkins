@@ -1,11 +1,11 @@
 variable "vpc_cidr" {
   type = string
-  default = "10.1.0.0/16"
+  default = "10.0.0.0/16"
 }
 
 variable "public_cidr" {
   type    = list(string)
-  default = ["10.1.1.0/24", "10.1.2.0/24", "10.1.3.0/24", "10.1.4.0/24", "10.1.5.0/24", "10.1.6.0/24"]
+  default = ["10.0.0.0/20", "10.1.2.0/24", "10.0.128.0/20"]
 }
 
 variable "key_name" {
