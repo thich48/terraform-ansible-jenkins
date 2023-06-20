@@ -1,10 +1,9 @@
 terraform {
   cloud {
-    organization = "Your-Organization-Name"
+    organization = "hashicorp-www-prod-hicham"
 
     workspaces {
-      name = "Your-Workspace-Name"
+      name = "terraform-ansible-jenkins"
     }
   }
 }
-
